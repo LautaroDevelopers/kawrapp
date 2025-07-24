@@ -1,6 +1,6 @@
 import  axios from "axios";
 
-export const API_BASE_URL = '10.10.10.20:5000/api'; // Replace with your actual API base URL
+export const API_BASE_URL = 'http://10.10.10.20:5000/api'; // Replace with your actual API base URL
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
